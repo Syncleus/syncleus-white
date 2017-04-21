@@ -5,7 +5,7 @@
 % ---------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SyncleusWhite}[7/8/2013, v1.0]
+\ProvidesClass{templates/syncleus-white}[7/8/2013, v1.0]
 \RequirePackage{ifthen}
 \RequirePackage{calc}
 \AtEndOfClass{\RequirePackage{microtype}}
@@ -20,7 +20,7 @@
 % ---------------------------------------------------------------------
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{amsmath,amsfonts,amssymb}
-\RequirePackage{graphicx,xcolor}
+\RequirePackage[pdftex]{graphicx,xcolor}
 \RequirePackage[english]{babel}
 \RequirePackage{booktabs}
 \RequirePackage{eso-pic}
